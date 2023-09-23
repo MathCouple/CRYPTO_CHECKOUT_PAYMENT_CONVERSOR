@@ -1,9 +1,9 @@
 
 # Project idea
-This is a part of a bigger application. And this one will be responsible for converting the payment from the user to the currency that the user wants to receive the payment.
+This is a part of a private bigger application. Sharing this specific part posed no issue as it doesn’t reveal any sensitive data. The model in which this source code will be implemented is asynchronous. This is a foundational project; the transactions will be managed in the application of the primary project where it will be incorporated. And this one will be responsible for converting the payment from the user to the currency that the user wants to receive the payment.
 
-It will also be responsible for the checkout of the payment, and the payment itself.
-I'm using aiohttp due to the freedom of the configuration.
+It will also handle the checkout of the payment, as well as the payment itself.
+I chose aiohttp for the flexibility it offers in configuration.
 
 ## This project is divided into 2 parts:
 - Checkout:
